@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    scroll-behavior:smooth;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(7, 163, 82);
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+hr{
+    width: 70px;
+    color: gray;
+    border-style: dotted none none none;
+    border-width: 5px;
+
+}
+
+p, h4{
+    /* line-height: 2; */
+}
+
+
+
+header{
+    background-color: rgb(211, 252, 210);
+}
+
+#navbar{
+    z-index: 1;
+    background-color: rgb(211, 252, 210);
+    margin-left: 500px;
+}
+
+ul{
+    list-style: none;
+}
+
+.items{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: rgb(7, 163, 82);
+}
+
+.items:hover{
+    text-shadow: 1px 1px gray;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#logo{
+    display: inline-block;
+    position: relative;
+    right: 500px;
+    padding-top: 20px;
+}
+
+#navList{
+    width: 600px;
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+}
+
+
+#top {
+    padding-bottom: 40px;
+    background-color: rgb(211, 252, 210);
+}
+
+#middle {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 50%;
+    margin: auto;
+}
+
+#bottom {
+    padding-top: 60px;
+}
+
+#Work{
+    font-size: 20px;
+    text-align: center;
+    background: none;
+    border: none;
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: rgb(7, 163, 82);
+    background-color: rgb(211, 252, 210);
+    
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(7, 163, 82);
+    padding: 10px 0;
+}
+
+
+.topCloud {
+    height: 80px;
+    width: 230px;
+    position: relative;
+    top: 40px;
+    left: 400px;
+    margin-top: 0px;
+}
+
+#myName {
+    color: rgb(7, 163, 82);
+    font-size: 5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+.subtitle {
+    color: rgb(7, 163, 82);
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+h3,
+h4 {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 300px;
+}
+
+.mountain {
+    height: 480px;
+}
+
+.myImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profession {
+
+}
+
+.hobbies {
+}
+
+.bottom{
+    width: 50%;
+    height: 400px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+.computer {
+    width: 30%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+}
+
+.chillies {
+    width: 30%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+#footer {
+
+
+    color: black;
+    padding: 40px 0;
+    background-color: rgb(211, 252, 210);
+
+}
+
+.contact {
+    /* position: relative;
+    left: 550px;
+    */
+    margin: auto;
+    
+}
+
+#contactHeading {
+    color: rgb(7, 163, 82);
+}
+
+#github {
+    border-radius: 50%;
+}
+
+.socialMedia {
+    height: 30px;
+    width: 30px;
+    padding: 20px 20px;
+
+}
+
+.description{
+    line-height: 2em;
+}
+
+
+.projectHeading{
+    color: rgb(7, 163, 82);
+    margin-top: 5%;
+}
+
+.Projects h2{
+    color: black;
+    text-decoration: underline;
+}
+
+.Projects a{
+    color: black;
+}
+
+.mainBox{
+    text-align: center;
+    /* text-shadow: 3px 3px black; */
+    border: 3px solid rgb(37, 35, 35);
+    border-radius: 30px;
+    width: 600px;
+    margin: 122px auto;
+    box-shadow: 5px 5px  40px rgb(44, 41, 41);
+
+}
+
+.input{
+    text-align: center;
+    display: block;
+    width: 500px;
+    margin: 15px auto;
+    padding: 8px;
+    /* background-color: black; */
+    /* color: white; */
+    border: 2px solid gray;
+    border-radius: 15px;
+    height: 25px;
+    /* font-size: 1.25rem; */
+    font-weight: bold;
+}
+
+.btn{
+    width: 150px;
+    margin: 20px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1.15%;
+}
+
+.btn:hover{
+    background-color: rgb(127, 189, 158);
+}
+
+#contactHead{
+    color: rgb(7, 163, 82);
+    margin: 6%;
+}   
